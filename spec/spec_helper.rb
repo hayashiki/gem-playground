@@ -1,5 +1,7 @@
 require "bundler/setup"
-require "gem/playground"
+require 'playground'
+require 'pry'
+require 'support/factory_bot'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

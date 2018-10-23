@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-group :development do
+group :development, :test do
   gem 'faker'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'awesome_print'
@@ -10,7 +10,7 @@ group :development do
   gem 'pry-awesome_print'
   gem 'pry-byebug'
   gem 'pry-doc'
-  gem 'pry-rails'
+  gem 'pry'
   gem 'pry-stack_explorer'
   gem 'rails_best_practices'
   gem 'rspec-rails'
